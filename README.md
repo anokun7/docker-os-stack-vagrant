@@ -28,9 +28,9 @@ Vagrant files to automate the setup of docker engine.
   ```
   Now you can ssh into any of them using `vagrant ssh /-4/` or `vagrant ssh /-6/`
 
-  Pre-configured IP addresses issued to the boxes as per below:
+  Pre-configured hostnames & IP addresses issued to the boxes as per below:
   ```
-  ubuntu-4                  10.0.0.4
-  ubuntu-5                  10.0.0.5
-  ubuntu-6                  10.0.0.6
+  ubuntu-4    ubuntu4.docker.demo              10.0.0.4
+  ubuntu-5    ubuntu5.docker.demo              10.0.0.5
+  ubuntu-6    ubuntu6.docker.demo              10.0.0.6
   ```
