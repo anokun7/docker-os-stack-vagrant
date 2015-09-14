@@ -1,4 +1,5 @@
-# docker-cs-stack-vagrant
+# Open Source Docker Stack
+
 To quickly install a complete (but opinionated) docker (open source only) stack
 
 Vagrant files to automate the setup of docker engine.
@@ -26,3 +27,10 @@ Vagrant files to automate the setup of docker engine.
   above with their current state. For more information about a specific
   ```
   Now you can ssh into any of them using `vagrant ssh /-4/` or `vagrant ssh /-6/`
+
+  Pre-configured IP addresses issued to the boxes as per below:
+  ```
+  ubuntu-4                  10.0.0.4
+  ubuntu-5                  10.0.0.5
+  ubuntu-6                  10.0.0.6
+  ```
