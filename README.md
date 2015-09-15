@@ -34,6 +34,6 @@ Vagrant files to automate the setup of docker engine.
   ubuntu-5    ubuntu5.docker.demo              10.0.0.5
   ubuntu-6    ubuntu6.docker.demo              10.0.0.6
   ```
-  All vm's come with the basic set of tools installed: telnet, nc and lynx.
-  Additionally, some very commonly used images are pulled into each vm. The images are: busybox, phusion/baseimage and nginx.
-  The password for the root user on all vm's is `docker`
+  - All vm's come with the basic set of tools installed: telnet, nc and lynx.
+  - Additionally, some very commonly used images are pulled into each vm. The images are: `busybox`, `phusion/baseimage` and `nginx`.
+  - The password for the `root` user on all vm's is `docker`
