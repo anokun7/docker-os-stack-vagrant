@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
       ubuntu.vm.network "forwarded_port", guest: 80, host: "808#{i}"
       ubuntu.vm.network "forwarded_port", guest: 443, host: "443#{i}"
       ubuntu.vm.network "forwarded_port", guest: 2375, host: "2375#{i}"
-      ubuntu.vm.network "forwarded_port", guest: 22, host: "220#{i}"
+      ubuntu.vm.network "forwarded_port", guest: 22, host: "220#{i}", auto_correct: false, id: "ssh"
   
      # Enable provisioning with a shell script 
       ubuntu.vm.provision "shell", inline: <<-SHELL
