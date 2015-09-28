@@ -6,4 +6,4 @@ for i in {4..6}; do docker run -d --name node$i swarm join --addr 10.0.0.$i:2375
 docker run -d -p 9999:2375 --name master swarm manage token://$id
 export DOCKER_HOST=tcp://10.0.0.4:9999
 sleep 3
-docker info && watch docker ps
+docker info ; sleep 2 ; docker ps
